@@ -1,0 +1,54 @@
+/* 
+ Theme Name: mon_theme
+ Theme URI: http://example.com/
+ Description: Exemple thème enfant
+ Author: Gaëtan KEMAYOU
+ Author URI: http://example.com/
+ Template: twentythirteen 
+ Version: 1.0.0
+ */
+
+@import url("../twentythirteen/style.css");
+/* =Theme customization start here */
+
+article{
+	width: 800px;
+	height: auto;
+	background-color: white;
+	box-shadow: 10px 10px 10px grey;
+	margin-right: auto;
+	margin-left: auto;
+	border:0px;
+	border-radius: 50px 0px 50px 0px;
+}
+
+.entry-title{
+	font-size:30px;
+	background-color: lightgrey;
+	width: auto;
+}
+
+.custom_field{
+	font-weight: bold;
+}
+
+.hentry{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#page{
+	background-color: lightgrey;
+}
+
+#comments{
+	display: none;
+}
+
+#recent-comments-2{
+	display:none;
+}
+
+#navbar{
+	background-color: lightgrey;
+}
